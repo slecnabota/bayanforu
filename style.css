@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Ubuntu:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    position: relative;
+}
+a, img, button, input{
+    display: block;
+}
+button, input{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper video{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    right: 100px;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-left a{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header-left button{
+    color: white;
+    font-size: 18px;
+}
+.header-right{
+    background: white;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+.header-left a{
+    margin-right: 20px;
+}
+.header-left a i{
+    margin-right: 5px;
+}
+.header-right input{
+    color: grey;
+    margin-left: 10px;
+}
+.header-promo{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+}
+.header-inner img{
+    margin-right: 50px;
+}
+.header-inner h1{
+    font-weight: 400;
+    color: white;
+    letter-spacing: 0.01em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100px;
+}
+.header-inner p{
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.swiper{
+    width: 900px;
+    height: 700px;
+}
+body{
+    background: #ead39d;
+}
+.s1-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #7B7030;
+}
+.s1-text{
+    margin-left: 100px;
+}
+.s1 h1{
+    font-size: 70px;
+}
+.s1 p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.s2{
+    margin: 0 100px;
+    padding: 100px 0;
+}
+.s2 h1{
+    color: #7B7030;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+.s2-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s2-inner a{
+    margin-bottom: 30px;
+}
